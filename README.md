@@ -5,7 +5,7 @@ A comprehensive PVE (Player vs Environment) system for DayZ that enhances gamepl
 ## Features
 
 ### Vehicle Enhancements
-- **Indestructible Batteries**: Vehicle batteries never lose charge
+- **Batteries**: Attached vehicle batteries never lose charge
 - **Waterproof Engines**: Engines don't take damage when submerged in water
 - **No Vehicle Collision Damage**: Players won't take damage from vehicle collisions
 - **Protected Vehicle Components**: Zombies and other entities can't damage vehicles
