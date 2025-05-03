@@ -44,4 +44,4 @@ The mod works by overriding key game functions:
 
 For issues, questions, or feature requests, please open an issue on the GitHub repository or contact the developer directly. 
 
-Disocrd: discord.gg/eGE4AswVBd
+Discord: discord.gg/eGE4AswVBd
