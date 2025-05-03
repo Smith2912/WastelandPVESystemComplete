@@ -34,7 +34,6 @@ The mod works by overriding key game functions:
 
 - DayZ Version: 1.15+
 - Works with most other mods that don't modify the same damage systems
-- Server-side only, no client-side mods required
 
 ## Credits
 
