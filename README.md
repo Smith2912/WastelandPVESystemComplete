@@ -30,16 +30,6 @@ The mod works by overriding key game functions:
 - Prevents zombies from damaging vehicles and players
 - Disables environmental damage like drowning and falling
 
-## Installation
-
-### Server Installation
-1. Copy the mod folder to your DayZ server directory
-2. Add the mod to your server startup parameters: `-mod=@WastelandPVESystemComplete;`
-3. Restart your server
-
-### Client Installation
-No client-side installation is required as the mod is server-side only.
-
 ## Compatibility
 
 - DayZ Version: 1.15+
@@ -53,3 +43,5 @@ No client-side installation is required as the mod is server-side only.
 ## Support
 
 For issues, questions, or feature requests, please open an issue on the GitHub repository or contact the developer directly. 
+
+Disocrd: discord.gg/eGE4AswVBd
