@@ -48,4 +48,4 @@ You can directly modify the mod yourself if you have specific niche for your ser
 
 ## Just Give Me Credit inside the mod and in the workshop desription. 
 
-## Discord: discord.gg/eGE4AswVBd
+## [Join our Discord](https://discord.gg/eGE4AswVBd)
