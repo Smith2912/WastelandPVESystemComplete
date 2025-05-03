@@ -10,32 +10,12 @@ modded class CarScript extends Car
 			ItemBase battery = GetBattery();
 			if ( battery )
 			{
-				if ( EngineIsOn() )
-				{
-					m_BatteryTimer += dt;
-					if ( m_BatteryTimer >= BATTERY_UPDATE_DELAY )
-					{
-						float rechargeRate = GetBatteryRechargeRate();
-						if (rechargeRate < 0)
-						{
-							battery.GetCompEM().ConsumeEnergy(rechargeRate * m_BatteryTimer);
-						}
-						m_BatteryTimer = 0;
-					}
-				}
-				else if ( !EngineIsOn() && IsScriptedLightsOn() )
-				{
-					m_BatteryTimer += dt;
-					if ( m_BatteryTimer >= BATTERY_UPDATE_DELAY )
-					{
-						m_BatteryTimer = 0;
-						
-						if ( battery.GetCompEM().GetEnergy() <= 0 )
-						{
-							ToggleHeadlights();
-						}
-					}
-				}
+				// Simply keep battery at max charge always
+				float maxEnergy = battery.GetCompEM().GetEnergyMax();
+				battery.GetCompEM().SetEnergy(maxEnergy);
+				
+				// Rest of battery code can be simplified since we always keep it at max
+				m_BatteryTimer = 0;
 			}
 			
 			if ( GetGame().GetWaterDepth( GetEnginePosWS() ) > 0 )

@@ -44,4 +44,8 @@ The mod works by overriding key game functions:
 
 For issues, questions, or feature requests, please open an issue on the GitHub repository or contact the developer directly. 
 
+You can directly modify the mod yourself if you have specific niche for your server.
+
+## Just Give Me Credit inside the mod and in the workshop desription. 
+
 Discord: discord.gg/eGE4AswVBd
